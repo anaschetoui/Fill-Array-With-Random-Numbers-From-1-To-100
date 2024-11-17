@@ -1,17 +1,6 @@
 #include <iostream>
 using namespace std;
 
-int ReadPositiveNumber(string Message)
-{
-	int Num;
-	do
-	{
-		cout << Message;
-		cin >> Num;
-	} while (Num < 0);
-
-	return Num;
-}
 
 int RandomNumber(int from, int to)
 {
